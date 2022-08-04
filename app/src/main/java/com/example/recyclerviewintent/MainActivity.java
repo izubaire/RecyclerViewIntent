@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
         usersList = new ArrayList<>();
 
         setUserInfo();
+//        setUserInfo();
         setAdapter();
     }
 
@@ -48,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setUserInfo() {
-        usersList.add(new User("Husnain"));
+        usersList.add(new User("Hamza"));
         usersList.add(new User("Usman"));
         usersList.add(new User("Usama"));
         usersList.add(new User("Sami"));

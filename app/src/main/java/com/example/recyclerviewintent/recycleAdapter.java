@@ -28,7 +28,6 @@ public class recycleAdapter extends RecyclerView.Adapter<recycleAdapter.MyViewHo
             nameTxt = view.findViewById(R.id.textView);
             view.setOnClickListener(this);
         }
-
         @Override
         public void onClick(View view) {
             listener.onClick(view, getAdapterPosition());
